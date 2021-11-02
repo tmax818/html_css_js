@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Code Challenge: Variables and Functions Practice</h1>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="6">Challenge Question Results</th>
+          </tr>
+          <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>Bonus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="challenge1"></td>
+            <td id="challenge2"></td>
+            <td id="challenge3"></td>
+            <td id="challenge4"></td>
+            <td id="challenge5"></td>
+            <td id="challenge-bonus"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- You do not need to change any code in the section below, it's just the instructions text -->
+
+    <hr />
+    <section>
+      <h2>Instructions</h2>
+      <ul>
+        <li>
+          Log into Codepen if you haven't, then fork this Code Challenge (find
+          the Fork button on the bottom right) to your own account.
+        </li>
+        <li>
+          For this Challenge, you will only need to edit the JS panel of this
+          Codepen. You do not need to complete every Challenge listed below, but
+          try as many as you can in order to get comfortable using variables and
+          functions. Read the comments inside the JS panel for further
+          instructions.
+        </li>
+        <li>
+          There is one statement that you will see repeatedly in the provided
+          code that you are not expected to understand yet. It looks like this:
+          <pre>
+            document.querySelector("#challengeNum").textContent = someVariable;</pre
+          >
+          This code's function is to take the return values of each of the
+          functions in the challenges and make them appear in the Challenge
+          Question Results table. Don't be concerned about this code. You will
+          learn how it works later; for now, it's just here to give you visual
+          feedback.
+        </li>
+      </ul>
+      <h3>Your Challenges:</h3>
+      <ol>
+        <li>This challenge has been completed for you as an example.</li>
+        <li>
+          Uncomment lines 16 and 17 - that means to remove the
+          <b>//</b> characters that are at the beginning of each line. Then
+          complete the unfinished variable declaration on line 16 so that it
+          calls the <b>getPerimeter</b> function (passing in the numbers 4 and 5
+          as arguments) and saves its return value to the const variable of
+          <b>perimeter</b>.
+        </li>
+        <li>
+          Write the <b>return</b> statement inside the
+          <b>getOuncesFromPounds</b> function declaration so that it returns the
+          value of <b>pounds * 16</b>.
+        </li>
+        <li>
+          Declare a function named <b>getInchesFromFeet</b> with a parameter
+          list containing the parameter <b>ft</b>. Inside the function, return
+          the value of <b>ft * 12</b>. Then uncomment the two lines of code
+          below it where indicated.
+        </li>
+        <li>
+          Declare a function named <b>getGramsFromOunces</b> with a parameter
+          list containing the parameter <b>ounces</b>. Inside the function,
+          return the value of <b>ounces * 28.3495</b>. Below it, outside the
+          function, call the <b>getGramsFromOunces</b> function with an argument
+          of <b>5</b>, and save its return value to a const variable named
+          <b>grams</b>. Uncomment the line that begins with
+          <b>document.querySelector...</b> below it.
+        </li>
+      </ol>
+      <ul>
+        <li>
+          <b>Bonus Challenge:</b> Create your own function declaration in the
+          Bonus Challenge section, and make sure it returns a value of some
+          kind. Then call that function and save it to a variable, giving the
+          variable an appropriate name. In the very last line in the JS panel,
+          replace the variable named <b>yourVariableNameHere</b> with the name
+          of the actual variable to which you saved your function's return
+          value.
+        </li>
+      </ul>
+      <p>
+        Compare your values shown in the Challenge Question Results table to the
+        screenshot shown in the learning portal.
+      </p>
+    </section>
+
+    <hr />
+    <section>
+      <h2>Challenge Resources</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.w3schools.com/jsref/jsref_function.asp"
+            target="_blank"
+            >W3Schools - JavaScript function Statement</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function"
+            target="_blank"
+            >MDN - function declaration</a
+          >
+        </li>
+      </ul>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
